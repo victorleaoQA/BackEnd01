@@ -21,6 +21,8 @@ public class PessoaTest {
         p2.setIdade(LocalDate.of(1986,12,7));
     }
 
+
+
     @Test
     void imprimirObjetos(){
         System.out.println(p1.toString());

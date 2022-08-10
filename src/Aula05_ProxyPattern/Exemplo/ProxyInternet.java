@@ -4,8 +4,8 @@ package Aula05_ProxyPattern.Exemplo;
 import java.util.List;
 
 public class ProxyInternet implements IConexionInternet {
-    private InternetService internetService;
-    private List<String> sitesBloqueados;
+    private final InternetService internetService;
+    private final List<String> sitesBloqueados;
 
    ProxyInternet(List<String> sitesBloqueados, InternetService internetService){
        this.sitesBloqueados = sitesBloqueados;

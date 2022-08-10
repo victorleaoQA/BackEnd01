@@ -19,6 +19,9 @@ public class PessoaTest {
 
         p2 = new Pessoa("Victor", "Gomes");
         p2.setIdade(LocalDate.of(1986,12,7));
+
+        p3 = new Pessoa("Andre","Felicio");
+        p3.setIdade(LocalDate.of(1994,5,29));
     }
 
 
@@ -26,13 +29,15 @@ public class PessoaTest {
     @Test
     void imprimirObjetos(){
         System.out.println(p1.toString());
-
+        System.out.println(p2.toString());
+        System.out.println(p3.toString());
     }
 
     @Test
     void adicionarColecao(){
         p1.adicionarNomes(p1);
         p2.adicionarNomes(p2);
+        p3.adicionarNomes(p3);
     }
 
 

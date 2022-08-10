@@ -1,4 +1,4 @@
-package DesignPattern;
+package Aula02_DesignPattern;
 
 public class Contratado extends Funcionario {
     private double valorHora;

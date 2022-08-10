@@ -1,4 +1,4 @@
-package DesignPattern;
+package Aula02_DesignPattern;
 
 import org.junit.jupiter.api.Test;
 

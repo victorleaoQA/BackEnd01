@@ -1,4 +1,4 @@
-package DesignPattern;
+package Aula02_DesignPattern;
 
 public abstract class Funcionario {
     private String nome;

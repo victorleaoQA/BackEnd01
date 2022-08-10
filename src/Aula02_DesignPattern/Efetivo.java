@@ -1,4 +1,4 @@
-package DesignPattern;
+package Aula02_DesignPattern;
 
 public class Efetivo extends Funcionario{
     private double salarioBase;

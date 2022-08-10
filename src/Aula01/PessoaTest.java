@@ -26,7 +26,7 @@ public class PessoaTest {
     @Test
     void imprimirObjetos(){
         System.out.println(p1.toString());
-        System.out.println(p2.toString());
+
     }
 
     @Test

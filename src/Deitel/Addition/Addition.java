@@ -3,7 +3,7 @@
 
 
 
-package Deitel;
+package Deitel.Addition;
 
 import java.util.Scanner;
 
